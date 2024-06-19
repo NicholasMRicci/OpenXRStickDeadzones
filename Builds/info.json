@@ -1,0 +1,19 @@
+{
+  "name": "OpenXR Stick Deadzones",
+  "description": "Sets a deadzone of about 10% for OpenXR controller's joysticks.",
+  "dll_file": "",
+  "last_edit": 638543577505077282,
+  "pub_id": "",
+  "json_version": "",
+  "version": "1.0.0",
+  "tagline": "",
+  "repository": "",
+  "is_public": false,
+  "unlisted": false,
+  "preview_image": "preview.png",
+  "web_preview_image": "web_preview.png",
+  "dependencies": null,
+  "mod_dependencies": null,
+  "menu_mod": false,
+  "ContentType": 3
+}
