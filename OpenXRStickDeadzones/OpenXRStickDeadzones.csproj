@@ -62,8 +62,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>IF EXIST "C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\VTOLVR_ModLoader\VTOLVR-ModLoader.exe" (
-copy "$(TargetPath)" "C:\Users\Nicho\Documents\dev\My Mods\OpenXR Stick Deadzones\Builds\OpenXRStickDeadzones.dll"
+    <PostBuildEvent>IF EXIST "C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\VTOLVR_ModLoader" (
+copy "C:\Users\Nicho\Documents\dev\My Mods\OpenXR Stick Deadzones\OpenXRStickDeadzones\bin\Release\OpenXRStickDeadzones.dll" "C:\Users\Nicho\Documents\dev\My Mods\OpenXR Stick Deadzones\Builds\OpenXRStickDeadzones.dll"
 )</PostBuildEvent>
   </PropertyGroup>
 </Project>
